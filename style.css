@@ -1,0 +1,134 @@
+/* Это коммент CSS! 
+
+ Цвета
+http://www.colors.commutercreative.com/grid/ - 147 NAMED COLORS
+https://color.adobe.com/create/color-wheel 
+    color - this property styles an element's foreground color.
+    background-color - this property styles an element's background color.
+
+	HSL stands for Hue, Saturation, and Lightness. Specifically, this is what each means:
+    Hue - the technical term that describes what we understand as "color." In HSL, hue is represented on a color wheel. It can take on values between 0 and 360.
+    Saturation - the amount of gray in a given color. In HSL, saturation is specified using a percentage between 0% and 100%. The percentage 0% represents a shade of gray, whereas 100% represents full saturation.
+    Lightness - the amount of white in a given color. Similar to saturation, lightness is specified using a percentage between 0% and 100%. The percentage 0% represents black, whereas 100% represents white. 50% is normal.
+
+hex - #09AA34
+rgba (123, 88, 9, 0.5)
+hsla (239, 45%, 22%, 0.4) alpha value represents the opacity of a color. 
+
+для совместимости - последний в приоритете!
+h1 {
+  color: rgb(22, 34, 88);
+  color: rgba(22, 34, 88, 0.4);
+}
+*/
+
+/*
+Шрифты
+https://fonts.google.com/library
+
+    Serif - the letters in these fonts have extra details on the ends of each letter. Examples include fonts like Times New Roman or Georgia, among others.
+    Sans-Serif - the letters in these fonts do not have extra details on the ends of each letter. Instead, letters have straight, flat edges. Some examples include Arial or Helvetica.
+ 
+font-family: Georgia, Garamond, serif; 
+font-size: 16px
+line-height: межстрочный интервал
+word-spacing: интервал между словами The default amount of space between words is usually 0.25em (4px).
+letter-spacing: интервал между буквами
+font-weight: bold/normal;
+font-style: italic;
+text-transform: uppercase/lowercase
+text-align: right;
+  */
+
+.navigation {
+  box-sizing: border-box;
+  background-color: #3587A4;
+  overflow: auto;
+  padding: 18px 50px;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  background-color: #3587A4;
+}
+
+ul:hover {
+  text-transform: lowercase;
+}
+
+li {
+  color: #FFF;
+  display: inline-block;
+  font-family: 'Oxygen', sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  letter-spacing: 2px;
+  margin: 0;
+  padding: 20px 18px 10px 18px;
+  text-transform: uppercase;
+}
+
+.active {
+  color: #88CCF1;
+}
+
+/* Таблица */
+
+table {
+  height: 40%;
+  left: 10%;
+  margin: 20px auto;
+  overflow-y: scroll;
+  position: static;
+  width: 80%;
+  border: 1px solid black;
+}
+
+thead th {
+  background: #88CCF1;
+  color: #FFF;
+  font-family: 'Lato', sans-serif;
+  font-size: 16px;
+  font-weight: 100;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+tr {
+  background: #f4f7f8;
+  border-bottom: 1px solid #FFF;
+  margin-bottom: 5px;
+  text-shadow: 2px 2px 1px black;
+}
+
+th, td {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  padding: 20px;
+  text-align: left;
+  width: 33.3333%;
+   font-size: 18px;
+}
+
+.search {
+  background-color: #FFF;
+  border: 1px solid #DDD;
+  border-radius: 3px;
+  color: #AAA;
+  padding: 20px;
+  margin: 50px auto 0px auto;
+  width: 77%;
+}
+
+img {
+	width=100%
+}
+
+li {
+background-color: #3587A4;
+}

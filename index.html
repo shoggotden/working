@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- в шапке указываются неконтентные елементы - стили, шрифты, правила, заголовок сайтйта для поисковых машин --> 
+  <title>test</title>
+   <meta charset="utf-8">
+  <link href="https://fonts.googleapis.com/css?family=Lato: 100,300,400,700|Luckiest+Guy|Oxygen:300,400" rel="stylesheet">
+   <link href="/css/bootstrap.min.css" rel="stylesheet">
+   <link href="/css/bootstrap-theme.min.css" rel="stylesheet">
+  <link href="styles/style.css" type="text/css" rel="stylesheet">
+</head>
+<body>
+<!-- содержание --> 
+<div>
+<h1> BOX MODEL </h1>
+<ol> 
+      <li>padding, пространство только вокруг контента (например, вокруг параграфа текста)</li>
+      <li>border, сплошная линия, которая расположена рядом с padding</li>
+      <li>margin, пространство вокруг внешней стороны элемента</li>
+ </ol>
+ <img src="https://mdn.mozillademos.org/files/9443/box-model.png" alt="three boxes sat inside one another. From outside to in they are labelled margin, border and padding" style="display: block; height: 450px; margin: 0px auto; width: 574px;">
+ </div>
+
+ <p>
+    width (ширину элемента)
+    background-color, цвет позади контента и padding элементов
+    color, цвет контента элемента (обычно текста)
+    text-shadow: устанавливает тень на тексте внутри элемента
+    display: устанавливает режим отображения элемента (не волнуйтесь об этом пока что)
+</p>
+ 
+ 
+<!-- 
+<ol> ordered list </ol>
+<ul> unordered list </ul>
+<li> individual list item </li> --> 
+
+<!-- якорный елемент - ссылка, картинка, видео -->  <a href="https://www.wikipedia.org/"(сайт) target="_blank" (новое окно)>
+
+<!-- ссылка в виде картинки -->
+
+ <a href="https://en.wikipedia.org/wiki/Brown_bear" target="_blank"> <img src="https://s3.amazonaws.com/codecademy-content/courses/web-101/web101-image_brownbear.jpg" alt="A brown bear"/></a>
+
+ <!--The HTML video element can add video to a webpage.-->
+ <p> Новый клип </p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/bBgdXGQAHQM" frameborder="0" allowfullscreen></iframe>
+  <!--
+<video width="720" height="480" controls>
+  <source src="video-url.mp4" type="video/mp4"> 
+</video> 
+-->
+
+<!--The video element uses a number of attributes. Let's take a look at them:
+
+    width and height: Set the size of the screen that displays the video.
+
+    controls: Adds play, pause and volume control.
+
+    source src: Sets the URL of the video to play.
+
+    type: Specifies different video formats.
+ 
+<br />  перенос строки
+
+<!-- комментарий the browser will not display. Можно так комментировать код чтобы не удалять -->
+   
+    <ul> <!-- changed to list in the tutorial -->
+      <li>technologists</li>
+      <li>thinkers</li>
+      <li>builders</li>
+</ul>
+
+ </body>
+
+  <ul class="navigation">
+    <li><img src="images/logo.png" alt="My test logo"> width=100% </li>
+    <li class="active">Action List</li>
+    <li>Profiles</li>
+    <li>Settings</li>
+  </ul>
+
+  <div class="search">Search the table</div>
+
+<table>
+  <thead>
+  <tr>
+    <th>Company Name</th>
+    <th>Number of Items to Ship</th>
+    <th>Next Action</th>
+  </tr>
+  </thead>
+  <tbody>
+  <tr>
+    <td>Adam's Greenworks</td>
+    <td>14</td>
+    <td>Package Items</td>
+  </tr>
+  <tr>
+  <td>Davie's Burgers</td>
+  <td>2</td>
+  <td>Send Invoice</td>
+</tr>
+<tr>
+  <td>Baker's Bike Shop</td>
+  <td>3</td>
+  <td>Send Invoice</td>
+</tr>
+<tr>
+  <td>Miss Sally's Southern</td>
+  <td>4</td>
+  <td>Ship</td>
+</tr>
+<tr>
+  <td>Summit Resort Rentals</td>
+  <td>4</td>
+  <td>Ship</td>
+</tr>
+<tr>
+  <td>Strike Fitness</td>
+  <td>1</td>
+  <td>Enter Order</td>
+</tr>
+</tbody>
+  <tfoot>
+  <td>Total</td>
+  <td>28</td>
+  </tfoot>
+</table>
+
+<script src="scripts/main.js"></script>
+
+</body>
+</html>
